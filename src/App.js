@@ -5,9 +5,10 @@ import {
   withRouter,
 } from "react-router-dom";
 import './App.css';
+import Navbar from './components/Navbar.js'
 
 export default function App() {
   return (
-    <div>WIP 09/03/22</div>
+    <Navbar />
   );
 }
