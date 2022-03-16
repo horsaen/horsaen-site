@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <div className="navbar-container">
             <div className="nav-left">
-                <Link to="/test">Horsaën</Link>
+                <Link to="/fr">Horsaën</Link>
             </div>
         </div>
     );

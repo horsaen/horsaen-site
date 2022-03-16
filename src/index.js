@@ -8,12 +8,13 @@ import {
 
 import App from './App';
 import Test from "./components/Test.js";
+import FrHome from "./components/Fr.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/test" element={<Test />} />
+      <Route path="/fr" elemtent={<FrHome />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
