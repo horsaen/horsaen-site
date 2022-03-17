@@ -1,15 +1,9 @@
-import React from "react";
-
-import "./App.css";
-
-import Navbar from "./components/Navbar.js";
-import Landing from "./components/Landing.js";
+import { Link } from 'react-router-dom';
+import './App.css';
 
 export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Landing />
-    </div>
+    <div>T5</div>,
+    <Link to='/fr'>T5L - Fr</Link>
   );
 }
