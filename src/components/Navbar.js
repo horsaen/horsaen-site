@@ -5,9 +5,11 @@ export default function Navbar() {
     return (
         <div className="navbar-container">
             <div className="navbar-left">
-                <Link to='/fr'>Horsaën</Link>
+                <Link to='/'>Horsaën</Link>
             </div>
-            <div className="navbar-right"></div>
+            <div className="navbar-right">
+                <Link to='/fr'>FR</Link>
+            </div>
         </div>
     )
 }
