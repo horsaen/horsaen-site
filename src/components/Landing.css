@@ -1,4 +1,5 @@
 .landing-container {
+    display: flex;
     height: 100vh;
     padding: 0px 40px 0px 40px;
 }
@@ -9,4 +10,9 @@
 }
 .span-2 {
     color: #908298;
+}
+.landing-button {
+    height: 50px;
+    width: 250px;
+    background-color: #908298;
 }
