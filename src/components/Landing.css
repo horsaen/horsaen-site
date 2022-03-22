@@ -3,9 +3,11 @@
     height: 100vh;
     padding: 0px 40px 0px 40px;
 }
-.landing-text {
+.landing-nav-container {
     position: absolute;
     bottom: 40px;
+}
+.landing-text {
     font-size: 3em;
 }
 .span-2 {
@@ -13,6 +15,6 @@
 }
 .landing-button {
     height: 50px;
-    width: 250px;
+    width: 350px;
     background-color: #908298;
 }
