@@ -7,13 +7,15 @@ import {
 } from "react-router-dom";
 
 import App from './App';
-import Test from "./components/Test.js";
+import AppFr from './fr/App.js';
+import NotFound from './NotFound.js';
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/test" element={<Test />} />
+      <Route path="/fr" element={<AppFr />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
