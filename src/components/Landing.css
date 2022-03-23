@@ -1,3 +1,9 @@
+/*
+:root {
+    --blue: #58a9b8;
+    --white: #e2ded6;
+}
+*/
 .landing-container {
     display: flex;
     height: 100vh;
@@ -14,7 +20,15 @@
     color: #908298;
 }
 .landing-btn {
+    display: flex;
+    align-items: center;
     height: 50px;
     width: 350px;
     background-color: #908298;
+    text-decoration: none;
+}
+.landing-btn-text {
+    font-size: 1.5em;
+    padding-left: 10px;
+    color: #fff;
 }

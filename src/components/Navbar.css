@@ -3,7 +3,8 @@
     left: 0;
     right: 0;
     padding: 0px 10px 0px 10px;
-    background-color: #fff;height: 3rem;
+    background-color: #fff;
+    height: 3rem;
 }
 .navbar {
     display: flex;

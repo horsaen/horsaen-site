@@ -1,4 +1,6 @@
-import './Landing.css'
+import { Link } from 'react-router-dom';
+import './Landing.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Landing() {
     return (
@@ -7,9 +9,9 @@ export default function Landing() {
                 <div className="landing-text">
                     <span>Hey, I'm<br/></span><span className="span-2">Horsaën</span><span> ^w^</span>
                 </div>
-                <div className="landing-btn">
+                <AnchorLink href='#about-container' className="landing-btn">
                     <span className="landing-btn-text">Learn More</span>
-                </div>
+                </AnchorLink>
             </div>
         </div>
     )

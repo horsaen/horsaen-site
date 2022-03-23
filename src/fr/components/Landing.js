@@ -1,5 +1,5 @@
 export default function Landing() {
     return (
-        <div>Test</div>
+        <div>Bien joué, vous êtes arrivé.</div>
     )
 }
