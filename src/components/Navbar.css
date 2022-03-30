@@ -22,3 +22,11 @@
     font-weight: 300;
     float: right;
 }
+
+/*
+@media (max-width: 768px) {
+    .navbar-container {
+        width: 100vw;
+    }
+}
+*/

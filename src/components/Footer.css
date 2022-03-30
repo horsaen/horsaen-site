@@ -1,17 +1,26 @@
 .footer-container {
+    height: 5vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 10vh;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
 }
 .span-2 {
     color: #908298;
 }
 .link-container1 {
     height: 15px;
+    width: 45px;
+    justify-self: center;
     background-color: #fff;
 }
 .link-container2 {
     height: 15px;
+    width: 45px;
+    justify-self: center;
     background-color: #fff;
 }
