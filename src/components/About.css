@@ -28,3 +28,12 @@
 .span-2 {
     color: #908298;
 }
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 10px;
+    }
+    .about-content {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

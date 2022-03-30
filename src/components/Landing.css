@@ -32,3 +32,12 @@
     padding-left: 10px;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    .landing-container {
+        padding: 0px 10px 0px 10px;
+    }
+    .landing-btn {
+        width: 300px;
+    }
+}
