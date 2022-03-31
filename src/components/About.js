@@ -22,9 +22,9 @@ export default function About () {
                     </div>
                     <div className="content">
                         <ul>
-                            <li><span>English |<span className="span-2"> C2</span></span></li>
-                            <li><span>French |<span className="span-2"> B2</span></span></li>
-                            <li><span>Indonesian |<span className="span-2"> A2</span></span></li>
+                            <li className="bullet"><span>English |<span className="span-2"> C2</span></span></li>
+                            <li className="bullet"><span>French |<span className="span-2"> B2</span></span></li>
+                            <li className="bullet"><span>Indonesian |<span className="span-2"> A2</span></span></li>
                         </ul>
                     </div>
                 </div>
@@ -37,6 +37,28 @@ export default function About () {
                     <div className="header">
                         <span className="header-text">Education</span>
                     </div>
+                    <div className="edu-container">
+                        <div className="edu-left">
+                            <div className="card">
+                                <div className="title">
+                                    <span>Sigourney CSD</span>
+                                </div>
+                                <div className="subtitle-2">
+                                    <span>Sept 2019 - Present</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="edu-right">
+                            <div className="description">
+                                <div className="title">
+                                    <span>Technology club president</span>
+                                </div>
+                                <div className="description-text">
+                                    <span>Provide</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
