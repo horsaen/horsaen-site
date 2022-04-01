@@ -54,7 +54,10 @@ export default function About () {
                                     <span>Technology club president</span>
                                 </div>
                                 <div className="description-text">
-                                    <span>Provide</span>
+                                    <span>Provided quality knowledge of technology to students, 
+                                        including valuable skills such as the repair of computer
+                                         systems and programming languages.
+                                    </span>
                                 </div>
                             </div>
                         </div>
