@@ -8,13 +8,22 @@ export default function About () {
                     <div className="title">
                         <span>About</span>
                     </div>
+                    <div className="desc">
+                        <span>
+                            Ever since a very young age, I have always been captivated by technology and 
+                            always learning the many applications of technology. At the age of 12 I built
+                            own computer and jailbroke my phone. At 15 I set up my own server, and I am now 
+                            working with commercial-grade networking hardware, and am constantly learning 
+                            new applications of technology.
+                        </span>
+                    </div>
                 </div>
                 <div className="card">
                     <div className="title">
                         <span>Languages</span>
                     </div>
                     <div className="description">
-                        <ul className="desc">
+                        <ul className="list">
                             <li><span>English | <span className="span-2">C2</span></span></li>
                             <li><span>French | <span className="span-2">B2</span></span></li>
                             <li><span>Indonesian | <span className="span-2">A2</span></span></li>
@@ -32,6 +41,11 @@ export default function About () {
                             </div>
                             <div className="desc">
                                 <span>Nov 2021 - Present</span>
+                                <br />
+                                <span>
+                                    French NPO focused on the promotion and preservation 
+                                    of the Norman language.
+                                </span>
                             </div>
                         </div>
                         <div className="description-right">
@@ -39,9 +53,15 @@ export default function About () {
                                 <span>Frontend Developer</span>
                             </div>
                             <div className="desc">
-                                <span>test</span>
+                                <span>
+                                    Spearhead the development and hosting of Acauntertous' website 
+                                    in a way which is satisfying to administration.
+                                </span>
                                 <br />
-                                <span>estsetST</span>
+                                <span>
+                                    Allow for effective communication between different 
+                                    elements of the development team.
+                                </span>
                             </div>
                         </div>
                     </div>  
@@ -61,12 +81,50 @@ export default function About () {
                         </div>
                         <div className="description-right">
                             <div className="desc-title">
-                                <span>Technology club president</span>
+                                <span>Technology Club President</span>
                             </div>
                             <div className="desc">
-                                <span>TEstsetS</span>
+                                <span>Provide a high quality knowledge of
+                                    technology to students, including the 
+                                    knowledge required to be successful 
+                                    in the IT world, such as the ability 
+                                    to use enterprise-grade technology, 
+                                    and the ability to troubleshoot problems 
+                                    found in a wide range of technology.
+                                </span>
+                                <br />
+                                <span>
+                                    Provisioning of both enterprise hardware, 
+                                    along with consumer technology in order to 
+                                    give students a large base of expericence.
+                                </span>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="title">
+                        <span>Skills</span>
+                    </div>
+                    <div className="desc">
+                        <span>
+                            Ability to diagnose and troubleshoot problems quickly
+                            and efficiently.
+                        </span>
+                        <br />
+                        <span>
+                            Ability to use and manage enterprise-grade hardware, 
+                            such as servers and enterprise networking.
+                        </span>
+                        <br />
+                        <span>
+                            Ability to use a CLI
+                        </span>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="title">
+                        <span>Projects</span>
                     </div>
                 </div>
             </div>

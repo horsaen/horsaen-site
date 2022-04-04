@@ -1,9 +1,5 @@
 .about-container {
     padding: 40px;
-    height: 100vh;
-}
-.card {
-    width: 50%;
 }
 .title {
     font-size: 2.5rem;
@@ -16,9 +12,9 @@
 .description ul {
     padding: 0;
     list-style: none;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
-.description li::before {
+.list li::before {
     content: ">\A0";
     color: #908298;
 }
@@ -28,7 +24,10 @@
 .desc-title {
     font-size: 1.75rem;
 }
-
+.desc span::before {
+    content: ">\A0";
+    color: #908298;
+}
 @media (min-width: 768px) {
     .about {
         display: grid;
@@ -40,7 +39,19 @@
     .about-container {
         padding: 10px;
     }
+    .title {
+        font-size: 1.75em;
+    }
     .card {
         width: 100%;
+    }
+    .desc-title {
+        font-size: 1.5rem;
+    }
+    .desc {
+        font-size: 1rem;
+    }
+    .description ul {
+        font-size: 1.5rem;
     }
 }
