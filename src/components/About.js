@@ -1,5 +1,16 @@
 import './About.css';
 
+/* Icon imports */
+import Cisco from "../Assets/Cisco.png";
+import CSS from "../Assets/CSS.png";
+import HTML from "../Assets/HTML.png";
+import JS from "../Assets/JS.png";
+import Manjaro from "../Assets/Manjaro.png";
+import React from "../Assets/React.png";
+import Svelte from "../Assets/Svelte.png";
+import Ubuntu from "../Assets/Ubuntu.png";
+import Windows from "../Assets/Windows.png";
+
 export default function About () {
     return (
         <div id="about" className="about-container">
@@ -84,7 +95,8 @@ export default function About () {
                                 <span>Technology Club President</span>
                             </div>
                             <div className="desc">
-                                <span>Provide a high quality knowledge of
+                                <span>
+                                    Provide a high quality knowledge of
                                     technology to students, including the 
                                     knowledge required to be successful 
                                     in the IT world, such as the ability 
@@ -120,11 +132,24 @@ export default function About () {
                         <span>
                             Ability to use a CLI
                         </span>
+                        <br />
+                        <span>
+                            Ability to quickly learn how to fix a problem effectively.
+                        </span>
                     </div>
-                </div>
-                <div className="card">
-                    <div className="title">
-                        <span>Projects</span>
+                    <div className="skills">
+                        <img src={HTML}></img>
+                        <img src={CSS}></img>
+                        <img src={JS}></img>
+                        <span>|</span>
+                        <img src={React}></img>
+                        <img src={Svelte}></img>
+                        <span>|</span>
+                        <img src={Windows}></img>
+                        <img src={Ubuntu}></img>
+                        <img src={Manjaro}></img>
+                        <span>|</span>
+                        <img src={Cisco}></img>
                     </div>
                 </div>
             </div>

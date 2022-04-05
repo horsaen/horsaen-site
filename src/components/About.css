@@ -28,6 +28,15 @@
     content: ">\A0";
     color: #908298;
 }
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.skills img {
+    height: 1.5rem;
+}
 @media (min-width: 768px) {
     .about {
         display: grid;
@@ -53,5 +62,8 @@
     }
     .description ul {
         font-size: 1.5rem;
+    }
+    .skills {
+        padding: 10px;
     }
 }
