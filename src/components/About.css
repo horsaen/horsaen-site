@@ -14,6 +14,11 @@
     list-style: none;
     font-size: 1.25rem;
 }
+.subtitle a {
+    text-decoration: underline;
+    color: #908298;
+    font-size: .75rem;
+}
 .list li::before {
     content: ">\A0";
     color: #908298;
@@ -28,10 +33,13 @@
     content: ">\A0";
     color: #908298;
 }
+.skill {
+    width: 100%;
+}
 .skills {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    width: 100%;
     padding-top: 40px;
 }
 .skills img {

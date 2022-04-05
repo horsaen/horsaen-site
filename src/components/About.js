@@ -21,11 +21,9 @@ export default function About () {
                     </div>
                     <div className="desc">
                         <span>
-                            Ever since a very young age, I have always been captivated by technology and 
-                            always learning the many applications of technology. At the age of 12 I built
-                            own computer and jailbroke my phone. At 15 I set up my own server, and I am now 
-                            working with commercial-grade networking hardware, and am constantly learning 
-                            new applications of technology.
+                            Ever since a very young age, I have always been captivated by technology and am always learning the many 
+                            applications of technology. At the age of 12 I built my own computer and jailbroke my phone. At 15 I set 
+                            up my own server and I am now working with commercial-grade networking hardware, all with no formal training.
                         </span>
                     </div>
                 </div>
@@ -34,6 +32,11 @@ export default function About () {
                         <span>Languages</span>
                     </div>
                     <div className="description">
+                        <div className="subtitle">
+                            <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/" target="_blank">
+                                Based on the CEFR language framework
+                            </a>
+                        </div>
                         <ul className="list">
                             <li><span>English | <span className="span-2">C2</span></span></li>
                             <li><span>French | <span className="span-2">B2</span></span></li>
@@ -66,12 +69,12 @@ export default function About () {
                             <div className="desc">
                                 <span>
                                     Spearhead the development and hosting of Acauntertous' website 
-                                    in a way which is satisfying to administration.
+                                    in a way which is satisfying to administration
                                 </span>
                                 <br />
                                 <span>
                                     Allow for effective communication between different 
-                                    elements of the development team.
+                                    elements of the development team
                                 </span>
                             </div>
                         </div>
@@ -96,19 +99,14 @@ export default function About () {
                             </div>
                             <div className="desc">
                                 <span>
-                                    Provide a high quality knowledge of
-                                    technology to students, including the 
-                                    knowledge required to be successful 
-                                    in the IT world, such as the ability 
-                                    to use enterprise-grade technology, 
-                                    and the ability to troubleshoot problems 
-                                    found in a wide range of technology.
+                                    Provide a high quality knowledge of technology to students, including the knowledge required to be 
+                                    successful in the IT world, such as the abilies to use enterprise-grade technology and to troubleshoot 
+                                    problems found in a wide range of technology.
                                 </span>
                                 <br />
                                 <span>
-                                    Provisioning of both enterprise hardware, 
-                                    along with consumer technology in order to 
-                                    give students a large base of expericence.
+                                    Provisioning of both enterprise hardware, along with consumer technology, in order to give students a large 
+                                    base of experience.
                                 </span>
                             </div>
                         </div>
@@ -120,21 +118,21 @@ export default function About () {
                     </div>
                     <div className="desc">
                         <span>
-                            Ability to diagnose and troubleshoot problems quickly
-                            and efficiently.
+                            The ability to diagnose and troubleshoot problems quickly
+                            and efficiently
                         </span>
                         <br />
                         <span>
-                            Ability to use and manage enterprise-grade hardware, 
-                            such as servers and enterprise networking.
+                            The ability to use and manage enterprise-grade hardware, 
+                            such as servers and enterprise networking
                         </span>
                         <br />
                         <span>
-                            Ability to use a CLI
+                            The ability to use a CLI
                         </span>
                         <br />
                         <span>
-                            Ability to quickly learn how to fix a problem effectively.
+                            The ability to quickly learn how to fix a problem effectively
                         </span>
                     </div>
                     <div className="skills">
@@ -142,14 +140,24 @@ export default function About () {
                         <img src={CSS}></img>
                         <img src={JS}></img>
                         <span>|</span>
-                        <img src={React}></img>
-                        <img src={Svelte}></img>
+                        <a href="https://reactjs.org/" target="_blank">
+                            <img src={React}></img>
+                        </a>
+                        <a href="https://svelte.dev/" target="_blank">
+                            <img src={Svelte}></img>
+                        </a>
                         <span>|</span>
                         <img src={Windows}></img>
-                        <img src={Ubuntu}></img>
-                        <img src={Manjaro}></img>
+                        <a href="https://ubuntu.com/" target="_blank">
+                            <img src={Ubuntu}></img>
+                        </a>
+                        <a href="https://manjaro.org/" target="_blank">
+                            <img src={Manjaro}></img>
+                        </a>
                         <span>|</span>
-                        <img src={Cisco}></img>
+                        <a href="https://www.cisco.com/" target="_blank">
+                            <img src={Cisco}></img>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -3,12 +3,6 @@
     display: flex;
     justify-content: center;
 }
-.footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-
-}
 .span-2 {
     color: #908298;
 }
