@@ -19,17 +19,17 @@ export default function Landing() {
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:atealltheglue@protonmail.com">
+                        <a href="mailto:atealltheglue@protonmail.com" target="_blank">
                             <HiMail />
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/horsain">
+                        <a href="https://linkedin.com/in/horsain" target="_blank">
                             <BsLinkedin />
                         </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/ihatepapertowel">
+                        <a href="https://instagram.com/ihatepapertowel" target="_blank">
                             <BsInstagram />
                         </a>
                     </li>

@@ -17,36 +17,36 @@ export default function About () {
             <div className="about">
                 <div className="card">
                     <div className="title">
-                        <span>About</span>
+                        <span>À propos</span>
                     </div>
                     <div className="desc">
                         <span>
-                            Ever since a very young age, I have always been captivated by technology and am always learning the many 
-                            applications of technology. At the age of 12 I built my own computer and jailbroke my phone. At 15 I set 
-                            up my own server and I am now working with commercial-grade networking hardware, all with no formal training.
+                        Depuis que j'étais petit, j'étais toujours captivé par la technologie et j'apprends toujours ses applications. 
+                        À l'âge de 12 ans j'ai fait mon propre ordinateur et j'ai jailbreaké mon téléphone. À l'âge de 15 ans j'ai fait 
+                        un serveur et j'ai travaillé avec le matériel réseau d'entreprise, tout sans formation formelle.
                         </span>
                     </div>
                 </div>
                 <div className="card">
                     <div className="title">
-                        <span>Languages</span>
+                        <span>Langues</span>
                     </div>
                     <div className="description">
                         <div className="subtitle">
                             <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/" target="_blank">
-                                Based on the CEFR language framework
+                                Basé sur le cadre CEFR 
                             </a>
                         </div>
                         <ul className="list">
-                            <li><span>English | <span className="span-2">C2</span></span></li>
-                            <li><span>French | <span className="span-2">B2</span></span></li>
-                            <li><span>Indonesian | <span className="span-2">A2</span></span></li>
+                            <li><span>Anglais | <span className="span-2">C2</span></span></li>
+                            <li><span>Français | <span className="span-2">B2</span></span></li>
+                            <li><span>Indonésien | <span className="span-2">A2</span></span></li>
                         </ul>
                     </div>
                 </div>
                 <div className="card">
                     <div className="title">
-                        <span>Experience</span>
+                        <span>Éxperience</span>
                     </div>
                     <div className="description-container">
                         <div className="description-left">
@@ -54,27 +54,25 @@ export default function About () {
                                 <span>Acauntertous</span>
                             </div>
                             <div className="desc">
-                                <span>Nov 2021 - Present</span>
+                                <span>Nov 2021 - Présent</span>
                                 <br />
                                 <span>
-                                    French NPO focused on the promotion and preservation 
-                                    of the Norman language.
+                                    OSBL dédié à la préservation et promotion de la langue Normand.
                                 </span>
                             </div>
                         </div>
                         <div className="description-right">
                             <div className="desc-title">
-                                <span>Frontend Developer</span>
+                                <span>Développeur Frontend</span>
                             </div>
                             <div className="desc">
                                 <span>
-                                    Spearhead the development and hosting of Acauntertous' website 
-                                    in a way which is satisfying to administration
+                                    Dirigé le développement et hébergement du site web de Acauntertous d'une manière satisfaisant 
+                                    pour l'administration
                                 </span>
                                 <br />
                                 <span>
-                                    Allow for effective communication between different 
-                                    elements of the development team
+                                    Permet de communication efficace entre les éléments différents de l'équipe de développement
                                 </span>
                             </div>
                         </div>
@@ -82,7 +80,7 @@ export default function About () {
                 </div>
                 <div className="card">
                     <div className="title">
-                        <span>Education</span>
+                        <span>Éducation</span>
                     </div>
                     <div className="description-container">
                         <div className="description-left">
@@ -90,12 +88,12 @@ export default function About () {
                                 <span>Sigourney CSD</span>
                             </div>
                             <div className="desc">
-                                <span>Sept 2019 - Present</span>
+                                <span>Sept 2019 - Présent</span>
                             </div>
                         </div>
                         <div className="description-right">
                             <div className="desc-title">
-                                <span>Technology Club President</span>
+                                <span>Président du club informatique et technologique</span>
                             </div>
                             <div className="desc">
                                 <span>
@@ -114,7 +112,7 @@ export default function About () {
                 </div>
                 <div className="card">
                     <div className="title">
-                        <span>Skills</span>
+                        <span>Compétances</span>
                     </div>
                     <div className="desc">
                         <span>
@@ -123,16 +121,15 @@ export default function About () {
                         </span>
                         <br />
                         <span>
-                            The ability to use and manage enterprise-grade hardware, 
-                            such as servers and enterprise networking
+                            La capacité d'utiliser et gérer les matériels entreprises, genre des serveurs et des matériels réseaux
                         </span>
                         <br />
                         <span>
-                            The ability to use a CLI
+                            La capacité d'utiliser une ILC
                         </span>
                         <br />
                         <span>
-                            The ability to quickly learn how to fix a problem effectively
+                            La capacité d'apprendre rapidement comment résoudre un problème
                         </span>
                     </div>
                     <div className="skills">
