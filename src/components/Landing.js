@@ -2,9 +2,39 @@ import { Link } from 'react-router-dom';
 import './Landing.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
+
+import { GoMarkGithub } from 'react-icons/go';
+import { HiMail } from 'react-icons/hi';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
+ 
 export default function Landing() {
     return (
         <div className="landing-container">
+            <div className="sidebar">
+                <ul>
+                    <li>
+                        <a href="https://github.com/horsaen/" target="_blank">
+                            <GoMarkGithub />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:atealltheglue@protonmail.com">
+                            <HiMail />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/horsain">
+                            <BsLinkedin />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/ihatepapertowel">
+                            <BsInstagram />
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div className="landing-nav-container">
                 <div className="landing-text">
                     <span>Hey, I'm<br/></span><span className="span-2">Cameron</span><span> ^w^</span>

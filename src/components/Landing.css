@@ -1,13 +1,26 @@
-/*
-:root {
-    --blue: #58a9b8;
-    --white: #e2ded6;
-}
-*/
 .landing-container {
     display: flex;
+    align-items: center;
     height: 100vh;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 0px 0px 40px;
+}
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 40px;
+}
+.sidebar ul {
+    list-style: none;
+}
+.sidebar a {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.sidebar a:hover {
+    color: #908298;
+    transition: all 0.2s ease;
 }
 .landing-nav-container {
     position: absolute;
