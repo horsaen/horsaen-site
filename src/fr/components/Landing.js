@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Landing.css';
+import '../../components/Landing.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 

@@ -1,5 +1,6 @@
 {
-  "name": "horsaen-site",
+  "name": "horsaen.site",
+  "homepage": "https://horsaen.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -8,7 +8,6 @@ import {
 
 import App from './App';
 import AppFr from './fr/App.js';
-import AppId from './id/App.js';
 import NotFound from './NotFound.js';
 
 ReactDOM.render(
@@ -16,7 +15,6 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/fr" element={<AppFr />} />
-      <Route path="/id" element={<AppId />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>,

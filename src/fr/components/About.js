@@ -1,15 +1,15 @@
-import './About.css';
+import '../../components/About.css';
 
 /* Icon imports */
-import Cisco from "../assets/Cisco.png";
-import CSS from "../assets/CSS.png";
-import HTML from "../assets/HTML.png";
-import JS from "../assets/JS.png";
-import Manjaro from "../assets/Manjaro.png";
-import React from "../assets/React.png";
-import Svelte from "../assets/Svelte.png";
-import Ubuntu from "../assets/Ubuntu.png";
-import Windows from "../assets/Windows.png";
+import Cisco from "../../assets/Cisco.png";
+import CSS from "../../assets/CSS.png";
+import HTML from "../../assets/HTML.png";
+import JS from "../../assets/JS.png";
+import Manjaro from "../../assets/Manjaro.png";
+import React from "../../assets/React.png";
+import Svelte from "../../assets/Svelte.png";
+import Ubuntu from "../../assets/Ubuntu.png";
+import Windows from "../../assets/Windows.png";
 
 export default function About () {
     return (
@@ -97,14 +97,14 @@ export default function About () {
                             </div>
                             <div className="desc">
                                 <span>
-                                    Provide a high quality knowledge of technology to students, including the knowledge required to be 
-                                    successful in the IT world, such as the abilies to use enterprise-grade technology and to troubleshoot 
-                                    problems found in a wide range of technology.
+                                    Fournir une connaissance de haute-qualité de la technologie aux étudiants, y compris les connaissances requises 
+                                    pour réussir dans le monde de IT, comme l'utilisation du matériel informatique entreprise et la compétence a 
+                                    dépanner des problèmes trouves dans un large éventail de technologie.
                                 </span>
                                 <br />
                                 <span>
-                                    Provisioning of both enterprise hardware, along with consumer technology, in order to give students a large 
-                                    base of experience.
+                                    L'approvisionnement du matériel d'entreprise et du matériel des consommateurs pour donner aux étudiants un large 
+                                    éventail d'expérience.
                                 </span>
                             </div>
                         </div>
@@ -116,8 +116,7 @@ export default function About () {
                     </div>
                     <div className="desc">
                         <span>
-                            The ability to diagnose and troubleshoot problems quickly
-                            and efficiently
+                            La capacité de diagnostiquer et dépanner des problèmes rapidement et efficacement
                         </span>
                         <br />
                         <span>

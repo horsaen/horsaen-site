@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import '../../components/Navbar.css';
 
 export default function Navbar() {
     return (
@@ -10,8 +10,6 @@ export default function Navbar() {
                 </div>
                 <div className="navbar-right">
                     <Link to='/'>EN</Link>
-                    <span> | </span>
-                    <Link to='/id'>ID</Link>
                 </div>
             </div> 
         </div>

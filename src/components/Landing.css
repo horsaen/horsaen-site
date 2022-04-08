@@ -5,9 +5,6 @@
     padding: 0px 0px 0px 40px;
 }
 .sidebar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     right: 40px;
 }
@@ -45,12 +42,15 @@
     padding-left: 10px;
     color: #fff;
 }
-
 @media (max-width: 768px) {
     .landing-container {
         padding: 0px 10px 0px 10px;
     }
     .landing-btn {
         width: 300px;
+    }
+    .sidebar {
+        position: absolute;
+        right: 10px;
     }
 }

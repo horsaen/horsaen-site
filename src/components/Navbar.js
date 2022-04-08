@@ -10,8 +10,6 @@ export default function Navbar() {
                 </div>
                 <div className="navbar-right">
                     <Link to='/fr'>FR</Link>
-                    <span> | </span>
-                    <Link to='/id'>ID</Link>
                 </div>
             </div> 
         </div>

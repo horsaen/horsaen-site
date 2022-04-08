@@ -136,9 +136,15 @@ export default function About () {
                         </span>
                     </div>
                     <div className="skills">
-                        <img src={HTML}></img>
-                        <img src={CSS}></img>
-                        <img src={JS}></img>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                            <img src={HTML}></img>
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                            <img src={CSS}></img>
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                            <img src={JS}></img>
+                        </a>
                         <span>|</span>
                         <a href="https://reactjs.org/" target="_blank">
                             <img src={React}></img>
@@ -147,7 +153,9 @@ export default function About () {
                             <img src={Svelte}></img>
                         </a>
                         <span>|</span>
-                        <img src={Windows}></img>
+                        <a href="https://www.microsoft.com/en-us/windows">
+                            <img src={Windows}></img>
+                        </a>
                         <a href="https://ubuntu.com/" target="_blank">
                             <img src={Ubuntu}></img>
                         </a>
