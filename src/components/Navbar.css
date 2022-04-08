@@ -3,7 +3,7 @@
     left: 0;
     right: 0;
     padding: 0px 10px 0px 10px;
-    background-color: #fff;height: 3rem;
+    height: 3rem;
 }
 .navbar {
     display: flex;
@@ -11,8 +11,12 @@
     align-items: center;
     height: 100%;
 }
-.navbar-container a {
-    color: #000;
+.navbar a {
+    color: #fff;
+}
+.navbar a:hover {
+    color: #908298;
+    transition: all 0.2s ease;
 }
 .navbar-left a {
     font-weight: 700;

@@ -1,0 +1,20 @@
+.footer-container {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.span-2 {
+    color: #908298;
+}
+.link-container {
+    height: 15px;
+    width: 45px;
+    justify-self: center;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        height: 10px;
+    }
+}
