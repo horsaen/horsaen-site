@@ -112,7 +112,7 @@ export default function About () {
                 </div>
                 <div className="card">
                     <div className="title">
-                        <span>Compétances</span>
+                        <span>Compétences</span>
                     </div>
                     <div className="desc">
                         <span>
