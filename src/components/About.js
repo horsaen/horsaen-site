@@ -33,7 +33,7 @@ export default function About () {
                     </div>
                     <div className="description">
                         <div className="subtitle">
-                            <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/" target="_blank">
+                            <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/" target="_blank" rel="noreferrer">
                                 Based on the CEFR language framework
                             </a>
                         </div>
@@ -136,35 +136,35 @@ export default function About () {
                         </span>
                     </div>
                     <div className="skills">
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                            <img src={HTML}></img>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
+                            <img src={HTML} alt=""></img>
                         </a>
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                            <img src={CSS}></img>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
+                            <img src={CSS} alt=""></img>
                         </a>
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                            <img src={JS}></img>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+                            <img src={JS} alt=""></img>
                         </a>
                         <span>|</span>
-                        <a href="https://reactjs.org/" target="_blank">
-                            <img src={React}></img>
+                        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                            <img src={React} alt=""></img>
                         </a>
-                        <a href="https://svelte.dev/" target="_blank">
-                            <img src={Svelte}></img>
+                        <a href="https://svelte.dev/" target="_blank" rel="noreferrer">
+                            <img src={Svelte} alt=""></img>
                         </a>
                         <span>|</span>
                         <a href="https://www.microsoft.com/en-us/windows">
-                            <img src={Windows}></img>
+                            <img src={Windows} alt=""></img>
                         </a>
-                        <a href="https://ubuntu.com/" target="_blank">
-                            <img src={Ubuntu}></img>
+                        <a href="https://ubuntu.com/" target="_blank" rel="noreferrer">
+                            <img src={Ubuntu} alt=""></img>
                         </a>
-                        <a href="https://manjaro.org/" target="_blank">
-                            <img src={Manjaro}></img>
+                        <a href="https://manjaro.org/" target="_blank" rel="noreferrer">
+                            <img src={Manjaro} alt=""></img>
                         </a>
                         <span>|</span>
-                        <a href="https://www.cisco.com/" target="_blank">
-                            <img src={Cisco}></img>
+                        <a href="https://www.cisco.com/" target="_blank" rel="noreferrer">
+                            <img src={Cisco} alt=""></img>
                         </a>
                     </div>
                 </div>
