@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import '../../components/Landing.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
@@ -14,22 +13,22 @@ export default function Landing() {
             <div className="sidebar">
                 <ul>
                     <li>
-                        <a href="https://github.com/horsaen/" target="_blank">
+                        <a href="https://github.com/horsaen/" target="_blank" rel="noreferrer">
                             <GoMarkGithub />
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:atealltheglue@protonmail.com" target="_blank">
+                        <a href="mailto:atealltheglue@protonmail.com" target="_blank" rel="noreferrer">
                             <HiMail />
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/horsain" target="_blank">
+                        <a href="https://linkedin.com/in/horsain" target="_blank" rel="noreferrer">
                             <BsLinkedin />
                         </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/ihatepapertowel" target="_blank">
+                        <a href="https://instagram.com/ihatepapertowel" target="_blank" rel="noreferrer">
                             <BsInstagram />
                         </a>
                     </li>

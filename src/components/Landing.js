@@ -24,7 +24,7 @@ export default function Landing() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/horsain" target="_blank">
+                        <a href="https://linkedin.com/in/horsaen" target="_blank">
                             <BsLinkedin />
                         </a>
                     </li>

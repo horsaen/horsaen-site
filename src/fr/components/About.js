@@ -33,7 +33,7 @@ export default function About () {
                     </div>
                     <div className="description">
                         <div className="subtitle">
-                            <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/" target="_blank">
+                            <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/" target="_blank" rel="noreferrer">
                                 Basé sur le cadre CEFR 
                             </a>
                         </div>
@@ -132,27 +132,27 @@ export default function About () {
                         </span>
                     </div>
                     <div className="skills">
-                        <img src={HTML}></img>
-                        <img src={CSS}></img>
-                        <img src={JS}></img>
+                        <img src={HTML} alt=""></img>
+                        <img src={CSS} alt=""></img>
+                        <img src={JS} alt=""></img>
                         <span>|</span>
-                        <a href="https://reactjs.org/" target="_blank">
-                            <img src={React}></img>
+                        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                            <img src={React} alt=""></img>
                         </a>
-                        <a href="https://svelte.dev/" target="_blank">
-                            <img src={Svelte}></img>
-                        </a>
-                        <span>|</span>
-                        <img src={Windows}></img>
-                        <a href="https://ubuntu.com/" target="_blank">
-                            <img src={Ubuntu}></img>
-                        </a>
-                        <a href="https://manjaro.org/" target="_blank">
-                            <img src={Manjaro}></img>
+                        <a href="https://svelte.dev/" target="_blank" rel="noreferrer">
+                            <img src={Svelte} alt=""></img>
                         </a>
                         <span>|</span>
-                        <a href="https://www.cisco.com/" target="_blank">
-                            <img src={Cisco}></img>
+                        <img src={Windows} alt=""></img>
+                        <a href="https://ubuntu.com/" target="_blank" rel="noreferrer">
+                            <img src={Ubuntu} alt=""></img>
+                        </a>
+                        <a href="https://manjaro.org/" target="_blank" rel="noreferrer">
+                            <img src={Manjaro} alt=""></img>
+                        </a>
+                        <span>|</span>
+                        <a href="https://www.cisco.com/" target="_blank" rel="noreferrer">
+                            <img src={Cisco} alt=""></img>
                         </a>
                     </div>
                 </div>
