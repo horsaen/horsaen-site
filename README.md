@@ -1,2 +1,2 @@
 ## Horsaën's CV
-My CV / Personal site
+My CV / Personal sit
