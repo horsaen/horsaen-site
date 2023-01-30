@@ -1,7 +1,3 @@
-<script>
-    import Footer from '../components/Footer.svelte'
-</script>
-
 <main>
     <div>
         <div class=beta-sticky>
@@ -17,11 +13,11 @@
             <span></span>
         </div>
     </div>
-    <Footer />
 </main>
 
 <style>
     .beta-sticky {
+        user-select: none;
         position: fixed;
         top: 10px;
         right: 10px;font-size: 30px;
@@ -32,6 +28,7 @@
         min-height: 100vh;
     }
     .landing-text {
+        user-select: none;
         position: absolute;
         left: 50px;
         bottom: 50px;
