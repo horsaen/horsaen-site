@@ -23,7 +23,7 @@ export default function Home() {
         <div className={styles.fiftey}>
           <div className={styles.textSection}>
             <span>about me</span>
-            <span>from a very young age i've always been involved in the tech world&mdash;from jailbreaking my iphone se with a $120 ASUS notebook at the age of 12 to creating a wide range of open source software solutions and using enterprise-grade hardware every day, my only goal is to learn more about the world around me.</span>
+            <span>from a very young age i&apos;ve always been involved in the tech world&mdash;from jailbreaking my iphone se with a $120 ASUS notebook at the age of 12 to creating a wide range of open source software solutions and using enterprise-grade hardware every day, my only goal is to learn more about the world around me.</span>
           </div>
           <div className={styles.textSection}>
             <span>hobbies</span>
