@@ -1,0 +1,10 @@
+.navbar {
+  all: unset;
+  position: fixed;
+  margin: 0;
+  padding: 3px 10px;
+  right: 5px;
+}
+.navbar a {
+  color: #fff;
+}

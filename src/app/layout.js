@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'horsaën',
   description: 'my personal website :D',
+  themeColor: '#e6edf3'
 }
 
 export default function RootLayout({ children }) {

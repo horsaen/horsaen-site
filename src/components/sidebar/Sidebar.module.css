@@ -41,3 +41,8 @@
   padding: 2.5px;
   border: 2px solid #e6edf3;
 }
+@media (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+}
