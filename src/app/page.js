@@ -51,6 +51,7 @@ const skills = [
       {name: 'macos big sur', icon: '/media/svgs/macos.svg'},
       {name: 'windows', icon: '/media/svgs/windows.svg'},
       {name: 'opensuse leap', icon: '/media/svgs/leap.svg'},
+      {name: 'proxmox ve', icon: '/media/svgs/proxmox.svg'},
     ]
   }
 ]
