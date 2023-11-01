@@ -22,7 +22,7 @@ ul {
   border-radius: 50%;
   background: #e6edf3;
   pointer-events: none;
-  z-index: 999;
+  z-index: 9999;
   mix-blend-mode: difference;
   cursor: none !important;
   transform: translate(-50%, -50%);
