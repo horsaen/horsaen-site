@@ -99,7 +99,7 @@ export default function Home() {
             <ul>
               <li>english [<span className={styles.blue}>c2</span>]</li>
               <li>french [<span className={styles.blue}>b2</span>]</li>
-              <li>indoneian [<span className={styles.blue}>a2</span>]</li>
+              <li>indonesian [<span className={styles.blue}>a2</span>]</li>
               <li>spanish [<span className={styles.blue}>a2</span>]</li>
             </ul>
           </div>
@@ -128,7 +128,7 @@ export default function Home() {
                 <Link href="/media/satellite/goes/goes-full.png">
                   <Image className={`${styles.border} ${styles.square}`} alt="image from goes 18" src={'/media/satellite/goes/goes.jpg'} width={250} height={250} />
                 </Link>
-                <a rel='noreferer' target='_blank' href="https://en.wikipedia.org/wiki/GOES_18">GOES 18</a>
+                <a rel='noreferer' target='_blank' href="https://en.wikipedia.org/wiki/Geostationary_Operational_Environmental_Satellite">GOES 18</a>
               </div>
             </div>
 

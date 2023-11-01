@@ -8,4 +8,32 @@ body,html {
 }
 * {
   box-sizing: border-box;
+  cursor: none;
+}
+
+span,
+li,
+ul {
+  width: fit-content;
+}
+
+.cursor {
+  position: fixed;
+  border-radius: 50%;
+  background: #e6edf3;
+  pointer-events: none;
+  z-index: 999;
+  mix-blend-mode: difference;
+  cursor: none !important;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .cursor {
+    width: 0;
+    height: 0;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
+      opacity 0.2s ease-in-out;
+  }
 }
