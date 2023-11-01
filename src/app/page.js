@@ -106,29 +106,33 @@ export default function Home() {
         </div>
 
         <div className={`${styles.half} ${styles.imageContainer}`}>
+          <span>some of my own captures :)</span>
           <div>
-            <Link href="/media/satellite/meteor/satellite-full.png">
-              <Image className={`${styles.border} ${styles.tall}`} alt="image from the meteor 2-3 satellite" src={'/media/satellite/meteor/satellite.jpg'} width={263} height={500} />
-            </Link>
-            <a rel='noreferer' target='_blank' href="https://en.wikipedia.org/wiki/Meteor_(satellite)#Meteor-M">Meteor M2-3</a>
-          </div>
 
-          <div className={styles.imageSquare}>
-            <div>
-              <Link href="/media/satellite/dmsp/dmsp-full.png">
-                <Image className={`${styles.border} ${styles.square}`} alt="image from dmsp 18" src={'/media/satellite/dmsp/dmsp.jpg'} width={250} height={250} />
+            <div className={styles.satImage}>
+              <Link href="/media/satellite/meteor/satellite-full.png">
+                <Image className={`${styles.border} ${styles.tall}`} alt="image from the meteor 2-3 satellite" src={'/media/satellite/meteor/satellite.jpg'} width={263} height={500} />
               </Link>
-              <a rel='noreferer' target='_blank' href="https://en.wikipedia.org/wiki/Defense_Meteorological_Satellite_Program">DMSP 18</a>
+              <a rel='noreferer' target='_blank' href="https://en.wikipedia.org/wiki/Meteor_(satellite)#Meteor-M">Meteor M2-3</a>
             </div>
 
-            <div>
-              <Link href="/media/satellite/goes/goes-full.png">
-                <Image className={`${styles.border} ${styles.square}`} alt="image from goes 18" src={'/media/satellite/goes/goes.jpg'} width={250} height={250} />
-              </Link>
-              <a rel='noreferer' target='_blank' href="https://en.wikipedia.org/wiki/GOES_18">GOES 18</a>
-            </div>
-          </div>
+            <div className={styles.imageSquare}>
+              <div className={styles.satImage}>
+                <Link href="/media/satellite/dmsp/dmsp-full.png">
+                  <Image className={`${styles.border} ${styles.square}`} alt="image from dmsp 18" src={'/media/satellite/dmsp/dmsp.jpg'} width={250} height={250} />
+                </Link>
+                <a rel='noreferer' target='_blank' href="https://en.wikipedia.org/wiki/Defense_Meteorological_Satellite_Program">DMSP 18</a>
+              </div>
 
+              <div className={styles.satImage}>
+                <Link href="/media/satellite/goes/goes-full.png">
+                  <Image className={`${styles.border} ${styles.square}`} alt="image from goes 18" src={'/media/satellite/goes/goes.jpg'} width={250} height={250} />
+                </Link>
+                <a rel='noreferer' target='_blank' href="https://en.wikipedia.org/wiki/GOES_18">GOES 18</a>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
       {/* <div className={styles.projectContainer}></div> */}
@@ -225,6 +229,7 @@ export default function Home() {
           <div className={styles.contact}>
             <span>i usually respond quickly on most platforms, feel free to reach out for anything !</span>
             <span>you can find me here:</span>
+            <a href="https://github.com/horsaen/horsaen/blob/main/key.asc">PGP Key</a>
             <ul>
               <li>discord [<span className={styles.blue}>gironde</span>]</li>
               <li>instagram [<span className={styles.blue}>ihatepapertowel</span>]</li>

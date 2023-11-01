@@ -50,14 +50,19 @@
 }
 .imageContainer {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 .imageContainer div {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 10px;
+}
+.satImage {
+  flex-direction: column;
 }
 .imageContainer a {
   color: inherit;
@@ -159,7 +164,12 @@
   }
   .imageContainer {
     width: auto;
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  .imageContainer div {
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
   }
   .imageContainer img {
     width: 100%;
