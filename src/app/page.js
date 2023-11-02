@@ -6,6 +6,10 @@ import Sidebar from '@/components/sidebar/Sidebar'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 
+export const metadata = {
+  description: 'my personal website :D'
+}
+
 const skills = [
   {
     title: 'frontend',
